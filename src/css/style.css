@@ -1,0 +1,47 @@
+#central {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+body{
+    font-family: Roboto, 'Segoe UI';
+    font-size: 50px;
+    background: #e43a15;
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);  
+    background: linear-gradient(to right, #e65245, #e43a15);
+    
+}
+.horario-input{
+    font-family: Roboto, 'Segoe UI';
+    font-size: 50px;
+    border: none;
+    width: 150px;
+    color: #8e44ad;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    text-shadow: 2px 2px 10px #000;
+}
+
+
+.titulo-horario{
+    font-size:20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8e44ad;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+.titulo-horario-saida{
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8e44ad;
+    text-shadow: 2px 2px 5px #000;
+}
